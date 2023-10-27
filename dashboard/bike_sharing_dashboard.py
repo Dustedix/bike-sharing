@@ -91,7 +91,7 @@ sns.barplot(data=year_versus, x='month', y='registered', hue='year', ci=None)
 
 plt.xlabel('Month')
 plt.ylabel('Total Orders')
-plt.title('Total Orders by Month (2011 vs. 2012)',loc='center',fontsize=50)
+plt.title('Total Registered Users by Month (2011 vs. 2012)',loc='center',fontsize=50)
 plt.legend(title='Year', labels=['2011', '2012'])
 plt.xticks(rotation=45,fontsize=40)
 plt.yticks(fontsize=40)
