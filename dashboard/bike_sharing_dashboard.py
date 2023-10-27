@@ -33,7 +33,7 @@ def year_versus(df):
 
     return registered_user_df
 
-all_df = pd.read_csv("new_day_df.csv")
+all_df = pd.read_csv("dashboard/new_day_df.csv")
 
 datetime_columns = ["datetime"]
 all_df.sort_values(by="datetime", inplace=True)
